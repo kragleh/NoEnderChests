@@ -15,11 +15,6 @@ public final class NoEnderChests extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
     }
 
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
-
     @EventHandler
     public void onInventoryOpen(InventoryOpenEvent event) {
         if (event.getPlayer().hasPermission(getConfig().getString("permission"))) return;
