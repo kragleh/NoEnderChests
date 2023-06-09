@@ -1,0 +1,6 @@
+name: NoEnderChests
+version: '${project.version}'
+main: com.kragleh.noenderchests.NoEnderChests
+api-version: 1.13
+load: STARTUP
+authors: [kragleh]
