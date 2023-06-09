@@ -6,4 +6,4 @@ Download and put the .jar file into a bukkit based server plugins folder and sta
 
 ## Permissions
 
- - nodenderchests.bypass - Bypasses the plugin and lets the player access their chest contents. 
+ - nodenderchests.bypass - Bypasses the plugin and lets the player access their chest contents. (Customizable)
